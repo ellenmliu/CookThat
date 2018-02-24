@@ -2,7 +2,9 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './static/index.js',
+  entry: {
+    main: './static/index.js',
+  },
   output: {
     path: path.join(__dirname, 'static/public'),
     filename: '[name].js'
