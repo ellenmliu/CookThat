@@ -5,7 +5,7 @@ const express = require('express');
 
 // Imports
 const indexRoutes = require('./routes/index')
-
+const errRoutes = require('./routes/err')
 // Create app
 const app = express();
 
@@ -20,6 +20,8 @@ app.use(express.static(path.join(__dirname, '../static')));
 
 // Routes
 app.get('/', indexRoutes);
+
+app.get('*', errRoutes);
 
 // Error Handler
 app.use(function (err, request, response, next) {
