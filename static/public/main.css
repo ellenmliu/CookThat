@@ -1,4 +1,10 @@
+.navbar, .navbar-default {
+  background-color: #c1f0c1;
+  padding: 1%;
+  border: none;
+  color: #000000;
+}
 * {
   font-family: 'Nunito', sans-serif;
-  color: #d6f5d6;
+  margin: 0;
 }
