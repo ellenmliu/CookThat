@@ -4,8 +4,8 @@ const webpack = require('webpack');
 module.exports = {
   entry: './static/index.js',
   output: {
-    path: path.join(__dirname, 'static'),
-    filename: 'bundle.js'
+    path: path.join(__dirname, 'static/public'),
+    filename: '[name].js'
   },
   module: {
     loaders: [{
