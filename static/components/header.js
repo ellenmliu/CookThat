@@ -6,25 +6,23 @@ import '../css/header.css';
 export default class App extends React.Component {
   render() {
     return <Navbar collapseOnSelect>
-      <Navbar.Header>
-        <Navbar.Brand>
-          Cook That
-        </Navbar.Brand>
-
-      </Navbar.Header>
-
-      <Navbar.Collapse>
+  <Navbar.Header>
+    <Navbar.Brand>
+      Cook That
+    </Navbar.Brand>
+    <Navbar.Toggle />
+  </Navbar.Header>
+  <Navbar.Collapse>
 
     <Nav pullRight>
-      <NavItem eventKey={1} href="#">
+      <NavItem >
         About
       </NavItem>
-      <NavItem eventKey={2} href="#">
+      <NavItem>
         Login
       </NavItem>
     </Nav>
   </Navbar.Collapse>
-
-    </Navbar>;
+</Navbar>
   }
 }

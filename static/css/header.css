@@ -2,5 +2,33 @@
   background-color: #c1f0c1;
   padding: 1%;
   border: none;
-  color: #000000;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FDBC86;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  border:none;
+  background-color: #c1f0c1;
+}
+
+.navbar-default .navbar-toggle:hover{
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FDBC86;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #FFFFFF;
 }
