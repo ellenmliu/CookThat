@@ -7,7 +7,6 @@
   top: 20px;
   border-radius: 50%;
 }
-
 #spoon {
   background:linear-gradient(to left, #BB8844, #CC9966);
   width: 20px;
@@ -16,7 +15,7 @@
   bottom: 10px;
   z-index: 1;
   border-radius: 140px/50px;
-  right: 20vw;
+  left: 30px;
   transform: rotate(7deg);
   animation: stir 4s infinite;
 }
@@ -41,9 +40,9 @@
 }
 
 @keyframes stir {
-  0% {right: 20vw;}
-  50% {right: 5vw;}
-  100% {right: 20vw;}
+  0% {left: 30px;}
+  50% {left: 130px;}
+  100% {left: 30px;}
 }
 .navbar, .navbar-default {
   background-color: #c1f0c1;
