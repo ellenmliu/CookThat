@@ -25,7 +25,7 @@
   width: 200px;
   height: 175px;
   position: absolute;
-  bottom: 50px;
+  bottom: 120px;
   z-index: 1;
   border-radius: 140px/50px;
   right: 20vw;
@@ -34,7 +34,7 @@
 #table {
   background-color: #ECD9C6;
   position: absolute;
-  bottom: -100px;
+  bottom: 0px;
   height: 200px;
   width: 100%;
 }
