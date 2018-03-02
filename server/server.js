@@ -6,6 +6,7 @@ const express = require('express');
 // Imports
 const indexRoutes = require('./routes/index')
 const errRoutes = require('./routes/err')
+const aboutRoutes = require('./routes/about')
 // Create app
 const app = express();
 
@@ -20,6 +21,8 @@ app.use(express.static(path.join(__dirname, '../static')));
 
 // Routes
 app.get('/', indexRoutes);
+
+app.get('/about', aboutRoutes);
 
 app.get('*', errRoutes);
 
