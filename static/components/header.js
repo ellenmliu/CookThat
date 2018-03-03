@@ -20,7 +20,7 @@ export default class App extends React.Component {
         <Link to='/about'>About</Link>
       </NavItem>
       <NavItem>
-        <Link to='/'>Login</Link>
+        <Link to='/login'>Login</Link>
       </NavItem>
     </Nav>
   </Navbar.Collapse>

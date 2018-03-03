@@ -4,6 +4,6 @@ import '../css/index.css';
 
 export default class About extends React.Component {
   render() {
-    return <h1>You did it!</h1>;
+    return <h1>About</h1>;
   }
 }

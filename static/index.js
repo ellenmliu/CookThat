@@ -9,5 +9,3 @@ ReactDOM.render(
         <App />
     </BrowserRouter>
     , document.getElementById('app'));
-
-//ReactDOM.render(<section><Header /><App /></section>, document.getElementById('app'));
