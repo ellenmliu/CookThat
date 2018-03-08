@@ -7,9 +7,11 @@ export default class App extends React.Component {
   render() {
     return <Navbar collapseOnSelect>
   <Navbar.Header>
-    <Navbar.Brand>
-      Cook That
-    </Navbar.Brand>
+    <a href="/">
+      <Navbar.Brand>
+        Cook That
+      </Navbar.Brand>
+    </a>
     <Navbar.Toggle />
   </Navbar.Header>
   <Navbar.Collapse>
