@@ -1,3 +1,41 @@
+.navbar, .navbar-default {
+  background-color: #c1f0c1;
+  padding: 1%;
+  border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FDBC86;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  border:none;
+  background-color: #c1f0c1;
+}
+
+.navbar-default .navbar-toggle:hover{
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FDBC86;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #FFFFFF;
+}
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
 #soup {
   background: linear-gradient(to right, #FDBC86, #FFD2AC);
   width: 200px;
@@ -43,42 +81,4 @@
   0% {left: 30px;}
   50% {left: 130px;}
   100% {left: 30px;}
-}
-.navbar, .navbar-default {
-  background-color: #c1f0c1;
-  padding: 1%;
-  border: none;
-}
-
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
-  color: #FFFFFF;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav>li>a:hover {
-  color: #FDBC86;
-}
-
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus{
-  border:none;
-  background-color: #c1f0c1;
-}
-
-.navbar-default .navbar-toggle:hover{
-  background-color: #FFFFFF;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #FDBC86;
-}
-
-.navbar-default .navbar-collapse {
-  border-color: #FFFFFF;
-}
-* {
-  font-family: 'Nunito', sans-serif;
-  margin: 0;
 }
