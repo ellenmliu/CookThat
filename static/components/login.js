@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './header';
+import '../css/index.css';
 
 export default class Login extends React.Component {
   render() {
