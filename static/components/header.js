@@ -20,7 +20,7 @@ export default class App extends React.Component {
       <NavItem href="/about">
         About
       </NavItem>
-      <NavItem>
+      <NavItem href="/main">
       Login
       </NavItem>
     </Nav>
