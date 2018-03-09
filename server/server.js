@@ -7,6 +7,7 @@ const express = require('express');
 const indexRoutes = require('./routes/index')
 const errRoutes = require('./routes/err')
 const aboutRoutes = require('./routes/about')
+const loginRoutes = require('./routes/login')
 // Create app
 const app = express();
 
@@ -23,6 +24,8 @@ app.use(express.static(path.join(__dirname, '../static')));
 app.get('/', indexRoutes);
 
 app.get('/about', aboutRoutes);
+
+app.get('/login', loginRoutes);
 
 app.get('*', errRoutes);
 
