@@ -1,11 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-;dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 import '../css/header.css';
 
 export default class App extends React.Component {
   render() {
-    return <Navbar collapseOnSelect>
+    return (<Navbar collapseOnSelect>
   <Navbar.Header>
     <a href="/">
       <Navbar.Brand>
@@ -25,6 +25,6 @@ export default class App extends React.Component {
       </NavItem>
     </Nav>
   </Navbar.Collapse>
-</Navbar>
+</Navbar>);
   }
 }

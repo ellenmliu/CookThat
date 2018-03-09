@@ -4,10 +4,10 @@ const fs = require('fs');
 const express = require('express');
 
 // Imports
-const indexRoutes = require('./routes/index')
-const errRoutes = require('./routes/err')
-const aboutRoutes = require('./routes/about')
-const loginRoutes = require('./routes/login')
+const indexRoutes = require('./routes/index');
+const errRoutes = require('./routes/err');
+const aboutRoutes = require('./routes/about');
+const loginRoutes = require('./routes/login');
 // Create app
 const app = express();
 
