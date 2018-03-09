@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-;dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 import '../css/header.css';
 
