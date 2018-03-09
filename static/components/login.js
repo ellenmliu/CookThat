@@ -8,6 +8,7 @@ export default class Login extends React.Component {
     return (<main>
       <Header />
       <h1>Login</h1>
+      <a href="/dashboard"><button>Login</button></a>
     </main>);
   }
 }
