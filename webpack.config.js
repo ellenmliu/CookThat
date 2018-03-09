@@ -6,7 +6,8 @@ module.exports = {
   entry: {
     main: './static/index.js',
     aboutpage: './static/components/about.js',
-    login: './static/components/login.js'
+    login: './static/components/login.js',
+    dashboard: './static/components/dashboard.js'
   },
   output: {
     path: path.join(__dirname, 'static/public'),

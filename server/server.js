@@ -8,6 +8,7 @@ const indexRoutes = require('./routes/index');
 const errRoutes = require('./routes/err');
 const aboutRoutes = require('./routes/about');
 const loginRoutes = require('./routes/login');
+const dashboardRoutes = require('./routes/dashboard');
 // Create app
 const app = express();
 
@@ -26,6 +27,8 @@ app.get('/', indexRoutes);
 app.get('/about', aboutRoutes);
 
 app.get('/login', loginRoutes);
+
+app.get('/dashboard', dashboardRoutes);
 
 app.get('*', errRoutes);
 
